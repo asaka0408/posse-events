@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="p-4">
+    <div class="flex">
+      <div class="py-1">
+        <img class="w-27 h-6" src="../posseLogo_0.png" alt="POSSE-logo">
+      </div>
+      <ul class="ml-auto gap-2 flex">
+        <li class="px-4 py-1 rounded-full text-white gradation shadow-md"><a href="">管理画面へ</a></li>
+        <li class="px-4 py-1 text-gray-500"><a href="">ログアウト</a></li>
+      </ul>
+    </div>
+  </header>
+  
+  <main class="w-screen h-full px-5 pb-10 background">
+    <p class="pt-3 pb-4">ようこそ POSSE1: 2.0期生 石川朝香さん</p>
+    <section class="w-full max-w-3xl mx-auto">
+      <div>
+        <button class="shadow-md rounded p-2 font-bold bg-blue-700 text-white">リアルイベント</button>
+        <ul class="flex my-8 gap-x-2">
+          <li><button class="shadow-md rounded p-2 font-bold bg-blue-700 text-white">全て</button></li>
+          <li><button class="shadow-md rounded p-2 font-bold bg-white">参加</button></li>
+          <li><button class="shadow-md rounded p-2 font-bold bg-white">不参加</button></li>
+          <li><button class="shadow-md rounded p-2 font-bold bg-white">提出済み</button></li>
+          <li><button class="shadow-md rounded p-2 font-bold bg-white">未回答</button></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="w-full max-w-3xl mx-auto my-5">
+      <h2 class="text-sm font-bold">一覧</h2>
+      <div class="my-3 p-3 flex rounded-lg bg-white shadow-md">
+        <div class="flex flex-col gap-y-3">
+          <div class="flex flex-wrap gap-x-3">
+            <h3 class="text-lg font-bold">POSSE雪部</h3>
+            <p class="py-1 px-2 text-xs rounded-lg text-white bg-blue-700">部員</p>
+          </div>
+          <div>
+            <p>2022年12月18日(日)</p>
+            <p class="text-xs">10:00~18:00</p>
+          </div>
+        </div>
+        <div class="ml-auto flex flex-col gap-y-6">
+          <div class="ml-auto flex gap-x-1">
+            <i class='text-2xl bx bxs-check-circle green'></i>
+            <p class="font-bold green">参加</p>
+          </div>
+          <p>4人参加 ></p>
+        </div>
+      </div>
+
+      <div class="my-3 p-3 flex rounded-lg bg-white shadow-md">
+        <div class="flex flex-col gap-y-3">
+          <div class="flex flex-wrap gap-x-3">
+            <h3 class="text-lg font-bold">冬のDX</h3>
+            <p class="py-1 px-2 text-xs rounded-lg text-white bg-blue-700">全期生</p>
+          </div>
+          <div>
+            <p>2022年12月28日(水)</p>
+            <p class="text-xs">10:00~18:00</p>
+          </div>
+        </div>
+        <div class="ml-auto flex flex-col gap-y-6">
+          <div class="ml-auto flex gap-x-1">
+            <i class='text-2xl bx bxs-check-circle text-gray-500'></i>
+            <p class="font-bold text-gray-500">不参加</p>
+          </div>
+          <p>4人参加 ></p>
+        </div>
+      </div>
+
+      <div class="my-3 p-3 flex rounded-lg bg-white shadow-md">
+        <div class="flex flex-col gap-y-3">
+          <div class="flex flex-wrap gap-x-3">
+            <h3 class="text-lg font-bold">初日の出&初詣</h3>
+            <p class="py-1 px-2 text-xs rounded-lg text-white bg-blue-700">2期生</p>
+          </div>
+          <div>
+            <p>2023年1月1日(日)</p>
+            <p class="text-xs">10:00~18:00</p>
+          </div>
+        </div>
+        <div class="ml-auto flex flex-col gap-y-6">
+          <div class="ml-auto flex gap-x-1">
+            <i class='text-2xl bx bxs-check-circle green'></i>
+            <p class="font-bold green">参加</p>
+          </div>
+          <p>4人参加 ></p>
+        </div>
+      </div> 
+
+      <div class="my-3 p-3 flex rounded-lg bg-white shadow-md">
+        <div class="flex flex-col gap-y-3">
+          <div class="flex flex-wrap gap-x-3">
+            <h3 class="text-lg font-bold">ハッカソン</h3>
+            <p class="py-1 px-2 text-xs rounded-lg text-white bg-blue-700">全期生</p>
+          </div>
+          <div>
+            <p>2023年2月11日(土)</p>
+            <p class="text-xs">10:00~18:00</p>
+          </div>
+        </div>
+        <div class="ml-auto flex flex-col gap-y-6">
+          <div class="ml-auto flex gap-x-1">
+            <i class='text-2xl bx bxs-check-circle green'></i>
+            <p class="font-bold green">参加</p>
+          </div>
+          <p>40人参加 ></p>
+        </div>
+      </div> 
+
+      <div class="my-3 p-3 flex rounded-lg bg-white shadow-md">
+        <div class="flex flex-col gap-y-3">
+          <div class="flex flex-wrap gap-x-3">
+            <h3 class="text-lg font-bold">歌い尽くそう</h3>
+            <p class="py-1 px-2 text-xs rounded-lg text-white bg-blue-700">1期生</p>
+          </div>
+          <div>
+            <p>2023年1月15日(日)</p>
+            <p class="text-xs">10:00~18:00</p>
+          </div>
+        </div>
+        <div class="ml-auto flex flex-col gap-y-6">
+          <div class="ml-auto flex gap-x-1">
+            <i class='text-2xl bx bxs-check-circle green'></i>
+            <p class="font-bold green">参加</p>
+          </div>
+          <p>4人参加 ></p>
+        </div>
+      </div> 
+
+      <div class="my-3 p-3 flex rounded-lg bg-white shadow-md">
+        <div class="flex flex-col gap-y-3">
+          <div class="flex flex-wrap gap-x-3">
+            <h3 class="text-lg font-bold">POSSE旅行</h3>
+            <p class="py-1 px-2 text-xs rounded-lg text-white bg-blue-700">3期生</p>
+          </div>
+          <div>
+            <p>2023年1月1日(日)</p>
+            <p class="text-xs">10:00~18:00</p>
+          </div>
+        </div>
+        <div class="ml-auto flex flex-col gap-y-6">
+          <div class="ml-auto flex gap-x-1">
+            <i class='text-2xl bx bxs-check-circle text-gray-500'></i>
+            <p class="font-bold text-gray-500">不参加</p>
+          </div>
+          <p>4人参加 ></p>
+        </div>
+      </div> 
+
+      <div class="my-3 p-3 flex rounded-lg bg-white shadow-md">
+        <div class="flex flex-col gap-y-3">
+          <div class="flex flex-wrap gap-x-3">
+            <h3 class="text-lg font-bold">サバリディズニー</h3>
+            <p class="py-1 px-2 text-xs rounded-lg text-white bg-blue-700">老若サバリ</p>
+          </div>
+          <div>
+            <p>2023年1月1日(日)</p>
+            <p class="text-xs">10:00~18:00</p>
+          </div>
+        </div>
+        <div class="ml-auto flex flex-col gap-y-6">
+          <div class="ml-auto flex gap-x-1">
+            <i class='text-2xl bx bxs-check-circle green'></i>
+            <p class="font-bold green">参加</p>
+          </div>
+          <p>4人参加 ></p>
+        </div>
+      </div> 
+
+      <div class="my-3 p-3 flex rounded-lg bg-white shadow-md">
+        <div class="flex flex-col gap-y-3">
+          <div class="flex flex-wrap gap-x-3">
+            <h3 class="text-lg font-bold">サーヴァントパーティー</h3>
+            <p class="py-1 px-2 text-xs rounded-lg text-white bg-blue-700">2期生</p>
+          </div>
+          <div>
+            <p>2023年1月1日(日)</p>
+            <p class="text-xs">10:00~18:00</p>
+          </div>
+        </div>
+        <div class="ml-auto flex flex-col gap-y-6">
+          <div class="ml-auto flex gap-x-1">
+            <i class='text-2xl bx bxs-check-circle green'></i>
+            <p class="font-bold green">参加</p>
+          </div>
+          <p>4人参加 ></p>
+        </div>
+      </div> 
+
+      <div class="my-3 p-3 flex rounded-lg bg-white shadow-md">
+        <div class="flex flex-col gap-y-3">
+          <div class="flex flex-wrap gap-x-3">
+            <h3 class="text-lg font-bold">クリスマスマーケット</h3>
+            <p class="py-1 px-2 text-xs rounded-lg text-white bg-blue-700">3期生</p>
+          </div>
+          <div>
+            <p>2023年12月24日(土)</p>
+            <p class="text-xs">10:00~18:00</p>
+          </div>
+        </div>
+        <div class="ml-auto flex flex-col gap-y-6">
+          <div class="ml-auto flex gap-x-1">
+            <i class='text-2xl bx bxs-check-circle text-gray-500'></i>
+            <p class="font-bold text-gray-500">不参加</p>
+          </div>
+          <p>4人参加 ></p>
+        </div>
+      </div> 
+    </section>
+  </main>
+
+  <footer class="w-screen fixed bottom-0">
+    <div class="w-full max-w-3xl mx-auto align-middle flex text-white">
+      <div class="w-1/2 py-4 flex gap-x-1 justify-center bg-blue-700">
+        <i class='text-2xl bx bx-calendar'></i>
+        <button class="font-bold">参加予約(未回答)</button>
+      </div>
+      <div class="w-1/2 py-4 flex gap-x-1 justify-center back-green">
+        <i class='text-2xl bx bx-check-circle'></i>
+        <button class="font-bold">今日の出欠</button>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>

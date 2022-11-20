@@ -1,0 +1,15 @@
+.background {
+  background-color: #f3f4f7;
+}
+
+.green {
+  color: #bde360;
+}
+
+.back-green {
+  background-color: #bde360;
+}
+
+.gradation {
+  background: linear-gradient(to right, #1a75c0, #3bcdfd);
+}
